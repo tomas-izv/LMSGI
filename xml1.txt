@@ -1,0 +1,18 @@
+<message>
+    <sender>
+        <name>Tomás</name>
+        <email>tomas@gmail.com</email>
+    </sender>
+
+    <receiver>
+        <name>Alba</name>
+        <email>alba@gmail.com</email>
+    </receiver>
+
+    <subject>Hola qué ase?</subject>
+
+
+    <text>
+        <parragraph>Hey there! This is my parragraph for you to read.</parragraph>
+    </text>
+</message>
