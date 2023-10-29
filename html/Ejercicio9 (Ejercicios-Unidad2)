@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1 {
+                text-align: center;
+            }
+            h3 {
+                text-align: center;
+            }
+            .person img {
+                width: 200px;
+                height: 300px;
+                cursor: pointer;
+            }   
+            .person .info {
+                display: none;
+                top: 500px;
+            }   
+            .person img:hover + .info {
+                display: block;
+            }
+        </style>
+    </head>
+
+    <body>
+            
+        <h1>Influential people in the IT world</h1>
+        <div id="people">
+            <div class="person">
+                <img src="https://miro.medium.com/v2/resize:fit:588/format:webp/1*GG5amZUk08XHw4aG-a5cQQ.jpeg" alt="Claude Shannon">
+                <div class="info">
+                    <h3>Claude Shannon</h3>
+                    <p>Cryptanalysis hero in World War II that was only 21 years old when he wrote a thesis applying Boolean algebra 
+                        to electronics. But his crown achievement was without a doubt his work on information theory with fundamental 
+                        applications for sending data in telecommunications or calculating password strength with his entropy 
+                        function.</p>
+                </div>
+            </div>
+            <div class="person">
+                <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*n7Z2_IagjYLEFAt2ydp3Cg.jpeg" alt="Grace Hopper">
+                <div class="info">
+                    <h3>Grace Hopper</h3>
+                    <p>Key contributor in the development of early high-level programming languages like COBOL, widely use today in 
+                        the banking sector. Fun fact, she was the recipient of the first Man of the Year award by the Data Processing 
+                        Management Association.</p>
+                </div>
+            </div>
+            <div class="person">
+                <img src="https://miro.medium.com/v2/resize:fit:750/format:webp/1*XSLFtfIItzwzlO5Fi16gEw.jpeg" alt="Margaret Hamilton">
+                <div class="info">
+                    <h3>Margaret Hamilton</h3>
+                    <p>That pile of papers in the photo is a printed version of the code written by this computer scientist for the 
+                        on-board software for Apollo ships that put the first humans on the moon. She was a pioneer of making a 
+                        career out of software engineering when that was not even a job.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
