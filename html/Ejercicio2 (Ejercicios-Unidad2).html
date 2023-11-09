@@ -1,31 +1,77 @@
 <!DOCTYPE html>
 <html>
-    <head>
-         <style>
-            body {
-                text-align: center;
-            }
-         </style>
-    </head>
-    <body>
-        <h1>RUSSIA</h1>
-            <p>
-                <div style= "background-color: white; width: 300px; height: 150px;"></div>
-                <div style= "background-color: blue; width: 300px; height: 150px;"></div>
-                <div style= "background-color: red; width: 300px; height: 150px;"></div>
-            </p>  
-   
-        <h1>UKRAINE</h1>
-            <p>
-                <div style= "background-color: blue; width: 300px; height: 225px;"></div>  
-                <div style= "background-color: yellow; width: 300px; height: 225px;"></div>  
-            </p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2 (Ejercicios-Unidad2)</title>
+    <style>
+        .Ukraine {
+            display: flex;
+            flex-direction: column;
+        }
 
-        <h1>ANDALUSIA</h1>
-            <p>
-                <div style= "background-color: green; width: 300px; height: 150px;"></div>
-                <div style= "background-color: white; width: 300px; height: 150px;"></div>
-                <div style= "background-color: green; width: 300px; height: 150px;"></div>
-            </p>
-    </body>
+        .Ukraine > div {
+            margin: 0px;
+            height: 100px;
+            width: 300px;
+            border-style: solid;
+            border-color: black;
+            border-width: 1px;
+        }
+
+        .Russia {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .Russia > div {
+            margin: 0px;
+            height: 100px;
+            width: 300px;
+            border-style: solid;
+            border-color: black;
+            border-width: 1px;
+        }
+
+        .Andalusia {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .Andalusia > div {
+            margin: 0px;
+            height: 100px;
+            width: 300px;
+            border-style: solid;
+            border-color: black;
+            border-width: 1px;
+        }
+    </style> 
+</head>
+
+<body>
+
+    <h1>Ukranian flag</h1>
+
+    <div class="Ukraine">
+        <div style="background-color: blue;"></div>
+        <div style="background-color: yellow;"></div>
+    </div>
+
+    <h1>Russian flag</h1>
+
+    <div class="Russia">
+        <div style="background-color: white"></div>
+        <div style="background-color: blue"></div>
+        <div style="background-color: red"></div>
+    </div>
+
+    <h1>Andalusian flag</h1>
+
+    <div class="Andalusia">
+        <div style="background-color: green"></div>
+        <div style="background-color: white"></div>
+        <div style="background-color: green"></div>
+    </div>
+</body>
 </html>
