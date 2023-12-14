@@ -1,0 +1,10 @@
+p {border: solid; border-color:black; border-width: 2px; color:blue; background-color: gray;}
+
+div + p {
+    background-color: yellow;
+}
+
+div + h1 + p{
+    font-size: 2em;
+    background-color: yellow;
+}
