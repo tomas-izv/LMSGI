@@ -1,0 +1,23 @@
+.Big {
+    width: 50%;
+    font-size: em;
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.Medium {
+    width: 33%;
+    font-size: 1.2em;
+    border: solid;
+    border-width: 2px;
+    border-color: red;
+}
+
+.Small {
+    width: 25%;
+    font-size: 0.8em;
+    border: solid;
+    border-width: 2px;
+    border-color: blue;
+}
