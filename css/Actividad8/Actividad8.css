@@ -1,0 +1,23 @@
+#First {
+    border-width: 5px;
+    border: solid;
+    border-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+#Second {
+    border-width: 5px;
+    border: solid;
+    border-color: blue;
+    margin: 5px;
+    padding: 5px;
+}
+
+#Third {
+    border-width: 5px;
+    border: solid;
+    border-color: brown;
+    margin: 0px;
+    padding: 20px;
+}
