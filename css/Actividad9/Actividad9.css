@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: aqua;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#column1 {
+    float: left;
+    width: 75%;
+    background-color: aquamarine;
+}
+
+#column2 {
+    text-align: center;
+    float: right;
+    width: 25%;
+    background-color: bisque;
+}
+
+.img1 {
+    margin-top: 20px;
+    margin-bottom: 1px;
+}
+
+footer {
+    background-color: darkcyan;
+    text-align: center;
+    margin-top: 0;
+}
