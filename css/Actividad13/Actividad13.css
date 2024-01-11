@@ -1,0 +1,40 @@
+.body {
+    overflow: auto;
+}
+
+#Cabecera {
+    width: 100%;
+    height: 90px;
+    padding: 10px;
+    text-align: center;
+    background-color: red;
+    margin: 10px;
+}
+
+#Menu {
+    width: 100%;
+    height: 40px;
+    text-align: left;
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+}
+
+#Contenido {
+    width: 100%;
+    height: 100%;
+    padding: 25;
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
+}
+
+#Pie {
+    width:100%;
+    height: 90px;
+    padding:25;
+    text-align: center;
+    background-color: blue;
+    margin: 10px;
+    padding: 10px;
+}
