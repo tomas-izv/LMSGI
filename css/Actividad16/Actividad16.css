@@ -1,0 +1,36 @@
+body {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+#Titulo {
+    background-color: antiquewhite;
+    float: left;
+    width: 65%;
+    height: 235px;
+    text-align: left;
+}
+
+#Log-in {
+    background-color: antiquewhite;
+    float: right;
+    width: 35%;
+    height: 235px;
+    text-align: left;
+}
+
+#Contenido_Left {
+    background-color:aquamarine;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+#Contenido_Right {
+    background-color:aquamarine;
+    float: right;
+    width: 50%;
+    text-align: center;
+}

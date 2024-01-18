@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad16</title>
+    <style>
+        @import url(Actividad16.css);
+    </style>
+</head>
+
+<body>
+
+        <div id="Titulo">
+            <h1>TELEBIRRIA</h1>
+
+            <h2>PARA REALIZAR SU PEDIDO, RELLENE EL FORMULARIO</h2>
+        </div>
+
+        <div id="Log-in">
+            <h3>Si es ya cliente introduce su nombre de usuario y clave</h3>
+
+            <form>
+                <label for="user">usuario:</label>
+                <input type="text" id="user" name="user">
+                <label for="password">clave:</label>
+                <input type="password" id="password" name="password"><br>
+            </form>
+        </div>
+    
+
+    <div class="Contenido">
+
+        <div id="Contenido_Left">
+            <form id="orderForm">
+                <fieldset>
+                    <legend>Datos personales y de envío (sólo si no es cliente)</legend>
+
+                    <label for="name">Nombre:</label>
+                    <input style="width: 350px" type="text" id="name" required>
+
+                    <label for="surname">Apellidos:</label>
+                    <input style="width: 350px" type="text" id="surname" required>
+
+                    <label for="address1">Domicilio:</label>
+                    <input style="width: 350px" type="text" id="address1" required>
+
+                    <label for="address2">Localidad:</label>
+                    <input style="width: 350px" type="text" id="address2" required>
+
+                    <label for="postCode">Código postal:</label>
+                    <input style="width: 350px" type="text" id="postCode" required>
+
+                    <label for="telephone">Teléfono:</label>
+                    <input style="width: 350px" type="text" id="telephone" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Elija la opción de entrega</legend>
+
+                    <input type="radio" id="pick-up" optional>
+                    <label for="pick-up">Recoger en el local</label>
+
+                    <input type="radio" id="send" optional>
+                    <label for="send">Enviar a domicilio</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>¿?Quiere que le enviemos nuestras ofertas?</legend>
+
+                    <input type="checkbox" id="sendHome" optional>
+                    <label for="sendHome">Enviar a domicilio</label>
+
+                    <input type="checkbox" id="sendEmail" optional>
+                    <label for="sendEmail">Enviar por email</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Elija su menu</legend>
+
+                    <label for="size">Tamaño del bocadillo</label>
+                    <select id="size">
+                        <option value="1">pequeño</option>
+                        <option value="2">mediano</option>
+                        <option value="3">grande</option>
+                        <option value="4">enorme</option>
+                    </select>
+
+        </div>
+
+        <div id="Contenido_Right">
+            <label for="content">Contenido del bocadillo</label>
+            <select id="content">
+                <option value="x">nada</option>
+                <option value="a">tomate</option>
+                <option value="b">lechuga</option>
+                <option value="c">jamon</option>
+                <option value="d">pollo</option>
+                <option value="e">cebolla</option>
+                <option value="f">huevo</option>
+                <option value="g">mayonesa</option>
+                <option value="h">ketchup</option>
+                <option value="i">barbacoa</option>
+            </select>
+            <select id="content">
+                <option value="x">nada</option>
+                <option value="a">tomate</option>
+                <option value="b">lechuga</option>
+                <option value="c">jamon</option>
+                <option value="d">pollo</option>
+                <option value="e">cebolla</option>
+                <option value="f">huevo</option>
+                <option value="g">mayonesa</option>
+                <option value="h">ketchup</option>
+                <option value="i">barbacoa</option>
+            </select>
+            <select id="content">
+                <option value="x">nada</option>
+                <option value="a">tomate</option>
+                <option value="b">lechuga</option>
+                <option value="c">jamon</option>
+                <option value="d">pollo</option>
+                <option value="e">cebolla</option>
+                <option value="f">huevo</option>
+                <option value="g">mayonesa</option>
+                <option value="h">ketchup</option>
+                <option value="i">barbacoa</option>
+            </select>
+            <select id="content">
+                <option value="x">nada</option>
+                <option value="a">tomate</option>
+                <option value="b">lechuga</option>
+                <option value="c">jamon</option>
+                <option value="d">pollo</option>
+                <option value="e">cebolla</option>
+                <option value="f">huevo</option>
+                <option value="g">mayonesa</option>
+                <option value="h">ketchup</option>
+                <option value="i">barbacoa</option>
+            </select>
+            <select id="content">
+                <option value="x">nada</option>
+                <option value="a">tomate</option>
+                <option value="b">lechuga</option>
+                <option value="c">jamon</option>
+                <option value="d">pollo</option>
+                <option value="e">cebolla</option>
+                <option value="f">huevo</option>
+                <option value="g">mayonesa</option>
+                <option value="h">ketchup</option>
+                <option value="i">barbacoa</option>
+            </select>
+            <select id="content">
+                <option value="x">nada</option>
+                <option value="a">tomate</option>
+                <option value="b">lechuga</option>
+                <option value="c">jamon</option>
+                <option value="d">pollo</option>
+                <option value="e">cebolla</option>
+                <option value="f">huevo</option>
+                <option value="g">mayonesa</option>
+                <option value="h">ketchup</option>
+                <option value="i">barbacoa</option>
+            </select>
+            <select id="content">
+                <option value="x">nada</option>
+                <option value="a">tomate</option>
+                <option value="b">lechuga</option>
+                <option value="c">jamon</option>
+                <option value="d">pollo</option>
+                <option value="e">cebolla</option>
+                <option value="f">huevo</option>
+                <option value="g">mayonesa</option>
+                <option value="h">ketchup</option>
+                <option value="i">barbacoa</option>
+            </select>
+            <select id="content">
+                <option value="x">nada</option>
+                <option value="a">tomate</option>
+                <option value="b">lechuga</option>
+                <option value="c">jamon</option>
+                <option value="d">pollo</option>
+                <option value="e">cebolla</option>
+                <option value="f">huevo</option>
+                <option value="g">mayonesa</option>
+                <option value="h">ketchup</option>
+                <option value="i">barbacoa</option>
+            </select>
+            <select id="content">
+                <option value="x">nada</option>
+                <option value="a">tomate</option>
+                <option value="b">lechuga</option>
+                <option value="c">jamon</option>
+                <option value="d">pollo</option>
+                <option value="e">cebolla</option>
+                <option value="f">huevo</option>
+                <option value="g">mayonesa</option>
+                <option value="h">ketchup</option>
+                <option value="i">barbacoa</option>
+            </select>
+
+            <label for="add">Puede añadir alguna sugerencia</label>
+            <textarea style="width:350px; height:100px; resize:none"
+                name="message">Por ejemplo que calienten el pan, etc</textarea>
+            </fieldset>
+        </div>
+    </div>
+
+    <input type="submit">
+
+</body>
+
+</html>
