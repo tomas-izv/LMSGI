@@ -1,0 +1,30 @@
+body{
+    font-size: 4em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.flex-container{
+    /* display:flex ocupa todo el ancho, inline flex ocupa sólo el contenido que hay... */
+    height: 500px;
+    display: flex;
+    /*flex-direction: row; /* row-reverse Cambia el orden / Por defecto viene row / Column lo deja en columna*/
+    /*flex-wrap: wrap;*/
+    flex-flow: row wrap; /*Esto hace lo mismo que el flex-direction y flex-wrap 2 en 1*/
+    justify-content: flex-start;
+    /*align-items: center;*/ /*Este alinea al centro el contenido, el align content alinea todo en el centro incluso si se achica el navegador*/
+    /*align-content: space-around; */
+    
+    background-color: #404040;
+}
+
+.flex-container > div {
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px red;
+    background: rgb(7, 37, 7);
+}
+
+.one{height: 100px;}
+.two{height: 150px; margin-left:auto;}
+.three{height: 160px;}
+.four{height: 170px;}

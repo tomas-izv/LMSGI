@@ -1,0 +1,46 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    padding: 20px;
+    color: white;
+    text-align: right;
+    background: black;
+    font-size: 2em;
+}
+
+section{
+    display: flex;
+}
+
+article{
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+#articulo1{
+    background: green;
+}
+
+#articulo2{
+    background: greenyellow;
+}
+
+#articulo3{
+    background: burlywood;
+}
+
+p{
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+}
+img{
+    width: 100%;
+}
