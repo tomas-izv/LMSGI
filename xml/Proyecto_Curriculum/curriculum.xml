@@ -1,4 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<factura id="876"
+<curriculum
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:noNamespaceSchemaLocation="factura.xsd">
+  xsi:noNamespaceSchemaLocation="curriculum.xsd">
+
+  <datos_personales>
+    <nombre></nombre>
+    <apellido1></apellido1>
+    <apellido2></apellido2> <!--OPCIONAL-->
+    <nacionalidad></nacionalidad> <!--1 O VARIAS-->
+    <identificacion>
+      <nif></nif>
+      <nie></nie>
+    </identificacion> <!--DNI O NIE-->
+    <datos_contacto>
+      <tipo_via></tipo_via>
+      <numero></numero> <!--OPCIONAL-->
+      <portal></portal> <!--OPCIONAL-->
+      <escalera></escalera> <!--OPCIONAL-->
+      <piso></piso> <!--OPCIONAL-->
+      <puerta></puerta> <!--OPCIONAL-->
+      <codigo_postal></codigo_postal>
+      <pais></pais>
+      <email></email>
+      <telefono_movil></telefono_movil>
+      <telefono_fijo></telefono_fijo> <!--OPCIONAL-->
+      <datos_contacto_adicionales> <!-- OPCIONAL-->
+        <pagina_web></pagina_web>
+        <redes_sociales></redes_sociales> <!--DE 0 A VARIAS-->
+      </datos_contacto_adicionales>
+    </datos_contacto>
+  </datos_personales>
+
+  <formacion_academica> <!-- DE 1 A VARIAS-->
+    <nombre></nombre>
+    <lugar_realizacion></lugar_realizacion>
+    <fecha_incio></fecha_incio>
+    <fecha_fin></fecha_fin>
+  </formacion_academica>
+
+  <idiomas> <!-- DE 1 A VARIAS-->
+    <nombre></nombre>
+    <nivel_expresion_oral></nivel_expresion_oral> <!-- OPCIONAL-->
+    <nivel_comprension_oral></nivel_comprension_oral> <!-- OPCIONAL-->
+    <nivel_expresion_escrita></nivel_expresion_escrita> <!-- OPCIONAL-->
+    <nivel_comprension_escrita></nivel_comprension_escrita> <!-- OPCIONAL-->
+    <titulo_academico></titulo_academico> <!-- OPCIONAL-->
+    <nivel_titulo></nivel_titulo>
+  </idiomas>
+
+  <experiencia_laboral> <!-- OPCIONAL, DE 0 A VARIAS-->
+    <lugar></lugar>
+    <puesto_realizado></puesto_realizado>
+    <fecha_comienzo></fecha_comienzo>
+    <fecha_fin></fecha_fin>
+  </experiencia_laboral>
+
+  <competencias_socio-profesionales> <!-- 1 A VARIAS-->
+    <nombre></nombre>
+    <nivel></nivel>
+  </competencias_socio-profesionales>
+
+  <datos_adicionales>
+    <aficiones></aficiones> <!-- OPCIONAL-->
+    <disponibilidad_viajar></disponibilidad_viajar>
+    <vehiculo_propio></vehiculo_propio>
+    <premisos_conduccion></premisos_conduccion>
+  </datos_adicionales>
+</curriculum>
