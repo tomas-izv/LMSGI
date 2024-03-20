@@ -3,67 +3,72 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:noNamespaceSchemaLocation="curriculum.xsd">
 
-  <datos_personales>
-    <nombre></nombre>
-    <apellido1></apellido1>
-    <apellido2></apellido2> <!--OPCIONAL-->
-    <nacionalidad></nacionalidad> <!--1 O VARIAS-->
-    <identificacion>
-      <nif></nif>
-      <nie></nie>
-    </identificacion> <!--DNI O NIE-->
-    <datos_contacto>
-      <tipo_via></tipo_via>
-      <numero></numero> <!--OPCIONAL-->
-      <portal></portal> <!--OPCIONAL-->
-      <escalera></escalera> <!--OPCIONAL-->
-      <piso></piso> <!--OPCIONAL-->
-      <puerta></puerta> <!--OPCIONAL-->
-      <codigo_postal></codigo_postal>
-      <pais></pais>
-      <email></email>
-      <telefono_movil></telefono_movil>
-      <telefono_fijo></telefono_fijo> <!--OPCIONAL-->
-      <datos_contacto_adicionales> <!-- OPCIONAL-->
-        <pagina_web></pagina_web>
-        <redes_sociales></redes_sociales> <!--DE 0 A VARIAS-->
-      </datos_contacto_adicionales>
-    </datos_contacto>
+  <datos_personales identificacion="12345678A">
+    <nombre>AAA</nombre>
+    <apellido1>BBB</apellido1>
+    <apellido2>CCC</apellido2> <!--OPCIONAL-->
+    <nacionalidad>Española</nacionalidad> <!--1 O VARIAS-->
   </datos_personales>
 
+  <datos_contacto>
+    <T_via></T_via>
+    <numero>1</numero> 
+    <portal>2</portal> 
+    <escalera>3</escalera> 
+    <piso>a</piso> <!--OPCIONAL-->
+    <puerta>1</puerta>
+    <codigo_postal>11111</codigo_postal>
+    <pais>España</pais>
+    <email>aaabbbccc@gmail.com</email>
+    <telefono_movil>666333111</telefono_movil>
+    <telefono_fijo>999777555</telefono_fijo>
+  </datos_contacto>
+
+  <datos_contacto_adicionales> <!-- OPCIONAL-->
+      <pagina_web></pagina_web> 
+      <cuenta_rss></cuenta_rss> <!--DE 0 A VARIAS-->
+  </datos_contacto_adicionales>
+    
+
   <formacion_academica> <!-- DE 1 A VARIAS-->
-    <nombre></nombre>
-    <lugar_realizacion></lugar_realizacion>
-    <fecha_incio></fecha_incio>
-    <fecha_fin></fecha_fin>
+    <estudio>
+      <nombre></nombre>
+      <lugar_realizacion></lugar_realizacion>
+      <fecha_inicio>2015-09-01</fecha_inicio>
+      <fecha_fin>2016-06-30</fecha_fin>
+    </estudio>
   </formacion_academica>
 
   <idiomas> <!-- DE 1 A VARIAS-->
-    <nombre></nombre>
-    <nivel_expresion_oral></nivel_expresion_oral> <!-- OPCIONAL-->
-    <nivel_comprension_oral></nivel_comprension_oral> <!-- OPCIONAL-->
-    <nivel_expresion_escrita></nivel_expresion_escrita> <!-- OPCIONAL-->
-    <nivel_comprension_escrita></nivel_comprension_escrita> <!-- OPCIONAL-->
-    <titulo_academico></titulo_academico> <!-- OPCIONAL-->
-    <nivel_titulo></nivel_titulo>
+    <idioma>
+      <nombre>ingles</nombre>
+      <nivel_expresion_oral>bajo</nivel_expresion_oral> 
+      <nivel_comprension_oral>bajo</nivel_comprension_oral>
+      <nivel_expresion_escrita>bajo</nivel_expresion_escrita> 
+      <nivel_comprension_escrita>bajo</nivel_comprension_escrita> 
+      <titulo_academico>Cambridge</titulo_academico>
+      <nivel_titulo>A2</nivel_titulo>
+    </idioma>
   </idiomas>
 
   <experiencia_laboral> <!-- OPCIONAL, DE 0 A VARIAS-->
+    <experiencia>
     <lugar></lugar>
-    <puesto_realizado></puesto_realizado>
-    <fecha_comienzo></fecha_comienzo>
-    <fecha_fin></fecha_fin>
+    <puesto></puesto>
+    <fecha_comienzo>2016-07-01</fecha_comienzo>
+    <fecha_fin>2017-07-01</fecha_fin>
+    </experiencia>
   </experiencia_laboral>
 
-  <competencias_socio-profesionales> <!-- 1 A VARIAS-->
-    <nombre></nombre>
-    <nivel></nivel>
-  </competencias_socio-profesionales>
+  <competencias_socioProfesionales> <!-- 1 A VARIAS-->
+    <nombre>Trabajo en equipo</nombre>
+    <nivel>4</nivel>
+  </competencias_socioProfesionales>
 
   <datos_adicionales>
     <aficiones></aficiones> <!-- OPCIONAL-->
-    <disponibilidad_viajar></disponibilidad_viajar>
-    <vehiculo_propio></vehiculo_propio>
-    <premisos_conduccion></premisos_conduccion>
+    <disponibilidad_viajar>true</disponibilidad_viajar>
+    <vehiculo_propio>true</vehiculo_propio>
+    <permisos_conduccion>A</permisos_conduccion>
   </datos_adicionales>
 </curriculum>
